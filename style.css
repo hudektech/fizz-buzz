@@ -1,0 +1,153 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  font-family: "Dancing Script", cursive;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/1089930/pexels-photo-1089930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+.btn {
+  border-radius: 20px;
+  margin: 4rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: black;
+  background-color: #00a652;
+  color: white;
+  box-shadow: 2px 2px 1px grey;
+  cursor: pointer;
+}
+
+.start {
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.title {
+  font-size: 4rem;
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+}
+
+.number {
+  font-size: 2rem;
+}
+
+.answer {
+  font-family: "Supermercado One", cursive;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding: 1rem;
+  width: 40vw;
+  max-width: 400px;
+  border-radius: 20px;
+  border: solid 4px white;
+}
+
+img {
+  width: 4rem;
+}
+
+.left-normal {
+  transform: rotate(-90deg);
+}
+
+.right-normal {
+  transform: rotate(90deg);
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.fizz {
+  background-color: black;
+  color: yellow;
+}
+.buzz {
+  background-color: yellow;
+  color: black;
+}
+
+.fizz-buzz {
+  background-color: crimson;
+  color: white;
+}
+
+.normal {
+  /* background-color: #00a652; */
+  background-color: #2196f3;
+  color: white;
+}
+
+.number {
+  background-color: antiquewhite;
+  padding: 2rem;
+  border-radius: 20px;
+  border: solid 4px black;
+  /* font-family: "Supermercado One", cursive; */
+}
+.answer-container {
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+}
+.attribute {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.attribute > a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .title {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+
+  .start {
+    font-size: 1.5rem;
+  }
+
+  .number {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .answer {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 3rem;
+  }
+}
