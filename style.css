@@ -126,16 +126,16 @@ img {
   padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .btn {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .start {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .number {
