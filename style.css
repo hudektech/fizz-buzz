@@ -9,14 +9,17 @@
 .disable-dbl-tap-zoom {
   touch-action: manipulation;
 }
+
 * {
   font-family: "Dancing Script", cursive;
 }
 
-body {
+.beer {
   background-image: url("https://images.pexels.com/photos/1089930/pexels-photo-1089930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-repeat: no-repeat;
-  background-size: cover;
+
+  background-size: contain;
+  background-position: center;
   height: 100vh;
   margin: 0;
 }
@@ -123,10 +126,17 @@ img {
 }
 
 .attribute > a {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   padding-bottom: 20px;
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .beer {
+    background-size: cover;
+  }
 }
 
 @media only screen and (max-width: 420px) {
